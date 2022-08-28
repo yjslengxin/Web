@@ -1,0 +1,13 @@
+document.writeln("<!DOCTYPE html>");
+document.writeln("<html lang=\'en\'>");
+document.writeln("<head>");
+document.writeln("	<meta charset=\'UTF-8\'>");
+document.writeln("	<title>Document</title>");
+document.writeln("	<link rel=\'stylesheet\' href=\'css/foot.css\'>");
+document.writeln("</head>");
+document.writeln("<body>");
+document.writeln("	<div class=\'foot\'>");
+document.writeln("       Copyright 2011 BaiXingfood.com lnc All rights reserved. 豫公网安备 41018402000232号&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;豫ICP备14010061号-1");
+document.writeln("   	</div>");
+document.writeln("</body>");
+document.writeln("</html>");

@@ -1,0 +1,115 @@
+*{
+	margin:0;
+	padding:0;
+	box-sizing: border-box;
+}
+a{
+	text-decoration:none;
+	color:#000;
+}
+.container{
+	width: 1170px;
+	margin-left: auto;
+	margin-right: auto;
+}
+.vertical_container{/*垂直居中*/
+    display: flex;
+	justify-content: center;
+	align-items: center;	
+}
+.clearfix:before,
+.clearfix:after{
+	display:table;
+	content:"";
+	clear:both;
+}
+.pad{
+	padding-left:30px;
+	padding-right:30px;
+}
+
+.top .row .col-md-2,.col-md-7{
+	float:left;
+}
+.top .row .col-md-3{
+	float:right;
+}
+.top .pad .logo{
+	height: 60px;
+}
+.top .pad .logo img{
+	height: 60px;
+}
+.top .pad .tnav{
+	margin-left:30px;
+}
+.top .pad .tnav ul li{
+	list-style: none;
+	float:left;
+	margin-left:15px;
+	margin-right:15px;
+	line-height: 60px;
+}
+.top .pad .tnav ul li a{
+	text-decoration: none;
+	color:black;
+	font-size:16px;
+}
+.top .pad .tnav ul li a:hover{
+	color:#1c7d78;
+	font-weight: bold;
+}
+.top .pad .tnav ul li a.tnavact{
+	color:#1c7d78;
+	font-weight: bold;
+}
+.top .pad .search{
+	height: 60px;
+}
+.top .pad .search form{
+	position: relative;
+}
+.top .pad .search form span{
+	font-size:16px;
+}
+.top .pad .search form input{
+	height: 40px;
+	width: 300px;
+	border:2px solid #bababa;	
+	color:#bababa;
+	font-size:12px;
+	padding-left:3px;
+	margin-left:3px;
+}
+.top .pad .search form button{
+	position: absolute;
+	right:10px;
+	top:10px;
+	border:none;
+	background: none;
+}
+.top .pad .search form button img{
+	width: 20px;
+	height: 20px;
+}
+#lunb{
+	width: 1518px;
+	height: 513px;
+	background-image: url(../images/lunb0.png);
+	background-repeat: no-repeat;
+	margin-left: auto;	
+	margin-right: auto;	
+	position:relative;
+}
+#lunb form{
+	position: absolute;
+	bottom:10px;
+	left:750px;
+}
+#lunb form button{
+	width: 8px;
+	height: 8px;
+	border-radius: 50%;
+	border:1px solid #bababa;
+	background: #fff;			
+}
